@@ -5,8 +5,8 @@
 				<legend>Search</legend>
 				<div class="ncc-search-wrap">
 					<input class="ncc-search-close" type="button" value="취소" title="취소">
-					<form id="nccSuggestForm" name="nccSuggestForm" method="get" onsubmit="return totalSearchCheck();">
-						<input id="nccSuggestInput" name="query" class="ncc-search-input" type="text" placeholder="통합검색" autocomplete="off" data-name="suggest_input" onkeyup="searchInputKeyup(this, event);"> 
+					<form id="nccSuggestForm" name="nccSuggestForm" onsubmit="return false;">
+						<input id="nccSuggestInput" name="query" class="ncc-search-input" type="text" placeholder="통합검색" autocomplete="off" data-name="suggest_input"> 
 						<a href="#none" class="ncc-search-input-delete" onclick="return false;" value="X" title="삭제" data-name="suggest_delete" style="display: none;"></a>
 						<input id="nccSuggestSubmit" class="ncc-search-submit" type="button" value="GO" title="검색" data-name="suggest_submit">
 						<div id="nccSuggestWrap" class="ncc-suggest-list-wrap" data-name="suggest_wrap" style="display: none;">
