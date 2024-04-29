@@ -6,6 +6,9 @@ body.ingame #nc-cnb.is-sticky .ncc-header {background-color: #192950!important;}
 .custom-theme#nc-cnb .ncc-gnb-wrap .ncc-bi {background-image: url(https://cdn.jsdelivr.net/gh/cckiss/web/img/bi-lineageremaster-type1.png); width: 84px; height: 35px; margin-top: 11px; text-indent: -9999em; white-space: nowrap; overflow: hidden;background-size: cover; background-repeat: no-repeat; background-position: center center;}
 .custom-theme#nc-cnb.is-sticky .ncc-gnb-wrap .ncc-bi {background-image: url(https://cdn.jsdelivr.net/gh/cckiss/web/img/bi-lineageremaster-type2.png); width: 84px; height: 35px; margin-top: 11px;}
 .ncc-search legend:before {line-height: 12px; content: ""; display: inline-block; width: 36px; height: 36px; margin: 10px 8px 10px 0; background-image: url(https://cdn.jsdelivr.net/gh/cckiss/web/img/icon-search.png); background-size: 36px 36px; background-position: 50%; background-repeat: no-repeat;}
+.ncc-search .ncc-search-wrap:before {background-image: url(/img/icon-search_bk.png); background-position: 50%; background-repeat: no-repeat; background-size: 20px 19px; content: ""; display: none; height: 100%; left: 5px; position: absolute; top: 0; width: 32px; z-index: 5;}
+.ncc-search.is-active .ncc-search-wrap:before {display: block;}
+
 body.ingame .ncc-search legend:before {opacity: 0.6;}
 #nc-cnb :after, #nc-cnb :before {-webkit-box-sizing: inherit; box-sizing: inherit;}
 #nc-cnb[data-cnb-type] .ncc-lnb-title .ncc-lnb-title--current {background: #aa8060;}
@@ -232,6 +235,7 @@ body.modal-open {overflow: hidden;}
 	.wrap-header .header .header-title {font-size: 32px;}
 	.custom-theme#nc-cnb .ncc-gnb-wrap .ncc-bi {background-image: url(https://cdn.jsdelivr.net/gh/cckiss/web/img/bi-lineageremaster-type1.png); width: 84px; height: 35px; margin-top: 11px;}
 	.ncc-search legend:before {margin: 11px; opacity: .7;}
+	#nc-cnb[data-cnb-type] .ncc-search .ncc-search-wrap:before { top: 0; bottom: 0;}
 	.section-promotion .promotion_admin_util {right: 20px; top: 28%;}
 	.section-etcservice #grade-layer-item {display: inline-block;}
 	body.launcher #nc-cnb .ncc-login--before .ncc-login__link:last-child:before, #nc-cnb .ncc-login--before .ncc-logout__link-logout:last-child:before {display: none;}
