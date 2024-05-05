@@ -230,8 +230,6 @@ body.modal-open {overflow: hidden;}
 	.nc-banner[data-type=toast].is-show { right: 0; transform: translateX(0) translateY(0);}
 }
 @media (min-width: 960px) {
-	#nc-cnb.is-sticky .ncc-lnb.ncc-lnb-type--main-over .ncc-lnb-item > a {color: #757981;}
-	#nc-cnb.is-sticky .ncc-lnb.ncc-lnb-type--main-over .ncc-lnb-item.is-over > a {color: #1f1f1f;}
 	.wrap-header {position: static; min-height: 197px;background-color: #452b34;background-image: url(https://cdn.jsdelivr.net/gh/cckiss/web/img/header-lineageremaster.jpg);background-repeat: no-repeat;background-size: 2560px auto;background-position: 50% 50%;}
 	.wrap-header .header {position: relative; margin: 0 auto;}
 	.wrap-header .header .header-title {font-size: 32px;}
