@@ -13,7 +13,7 @@ body.ingame .ncc-search legend:before {opacity: 0.6;}
 #nc-cnb :after, #nc-cnb :before {-webkit-box-sizing: inherit; box-sizing: inherit;}
 #nc-cnb[data-cnb-type] .ncc-lnb-title .ncc-lnb-title--current {background: #aa8060;}
 
-body.ingame #nc-cnb[data-cnb-type] .ncc-lnb-title .ncc-lnb-title--current {background: #192950; padding: 10px 12px;}
+body.ingame #nc-cnb[data-cnb-type] .ncc-lnb-title .ncc-lnb-title--current {background: #192950; padding: 10px 12px; -webkit-transition: background-color .4s ease; transition: background-color .4s ease;}
 body.page-main.ingame #nc-cnb[data-cnb-type] .ncc-lnb-title .ncc-lnb-title--current {background-color: rgba(0,0,0,.5);}
 body.page-main.ingame #nc-cnb[data-cnb-type].is-sticky .ncc-lnb-title .ncc-lnb-title--current {background: #192950;}
 body.ingame #nc-cnb[data-cnb-type] .ncc-lnb-title .ncc-lnb-title--current {justify-content: normal; font-size: 12px;}
@@ -27,7 +27,7 @@ body.ingame #nc-cnb[data-cnb-type] .ncc-lnb-title .ncc-lnb-title--current .ncc-l
 body.ingame #nc-cnb[data-cnb-type] .ncc-lnb-title .ncc-lnb-title--current .ncc-lnb-item .ncc-lnb-item__sub > li.is-active > a, body.launcher #nc-cnb[data-cnb-type] .ncc-lnb-title .ncc-lnb-title--current .ncc-lnb-item .ncc-lnb-item__sub > li.is-active > a {color: #c69c7c;}
 body.ingame #nc-cnb[data-cnb-type] .ncc-lnb-title .ncc-depth2-list-wrap {display: none; background-color: #1f3263;}
 body.ingame #nc-cnb[data-cnb-type] .ncc-lnb-title .ncc-depth2-list-wrap.is-active {display: block;}
-body.page-main.ingame #nc-cnb[data-cnb-type] .ncc-lnb-title .ncc-depth2-list-wrap {background-color: rgba(0, 0, 0, .2);}
+body.page-main.ingame #nc-cnb[data-cnb-type] .ncc-lnb-title .ncc-depth2-list-wrap {background-color: rgba(0, 0, 0, .2); -webkit-transition: background-color .4s ease; transition: background-color .4s ease;}
 body.page-main.ingame #nc-cnb[data-cnb-type].is-sticky .ncc-lnb-title .ncc-depth2-list-wrap {background-color: #1f3263;}
 body.ingame #nc-cnb[data-cnb-type] .ncc-depth2-list-wrap .ncc-depth2-list-items a {color: #fff; opacity: 0.6;}
 body.ingame #nc-cnb[data-cnb-type] .ncc-depth2-list-wrap .ncc-depth2-list-items.selected a, body.ingame #nc-cnb[data-cnb-type] .ncc-depth2-list-wrap .ncc-depth2-list-items:hover a {color: #c69c7c; opacity: 1;}
