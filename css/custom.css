@@ -35,6 +35,46 @@ body.ingame { font-size: 12px;}
 #top_area .welcome .cs_info .agree_txt i {font-size: 16px; font-weight: 600; vertical-align: bottom;}
 .noaccount {padding-top: 100px; text-align: center;}
 
+.wrap_contents_support {max-width: 1260px; margin: auto; padding-bottom: 40px;}
+.wrap_contents_support .support_l {float: left; width: 50%;}
+.wrap_contents_support .support_l strong {color: #fff; font-size: 22px; width: 100%; display: block; background: #457285; height: 100%; line-height: 53px; text-align: center;}
+.wrap_contents_support .support_r {font-size: 16px; font-weight: 600; float: left; width: 50%; text-align: center;}
+.wrap_contents_support .support_r span {color: red; display: block; font-size: 14px;}
+.wrap_contents_support .support_agree {border: 1px solid #ddd; padding: 50px;}
+.wrap_contents_support .support_agree .support_title {display: block; font-size: 22px; color: #457285; text-align: center;}
+.wrap_contents_support .support_agree .support_container {padding-top: 40px; line-height: 27px;}
+.wrap_contents_support .support_agree .support_container .support_agree_tit {color: #457285;}
+.wrap_contents_support .support_agree .support_container #agree_wrap ul {margin-top: 10px; margin-bottom: 10px;}
+.wrap_contents_support .support_agree .support_container #agree_wrap .support_content {border: 1px solid #ddd; padding: 25px; display: flex;}
+.wrap_contents_support .support_agree .support_container #agree_wrap .agree_check_div {padding-top: 20px; position: relative;}
+.wrap_contents_support .support_agree .support_container #agree_wrap .agree_check_div input {position: absolute; top: 27px; cursor: pointer;}
+.wrap_contents_support .support_agree .support_container #agree_wrap .agree_check_div strong {padding-left: 22px; cursor: pointer;}
+.wrap_contents_support .support_agree .support_container #agree_wrap .agree_btns {padding-top: 22px; text-align: center;}
+.wrap_contents_support .support_agree .support_container #agree_wrap .agree_btns button {width: 300px; height: 60px; background: #457285; color: #fff; font-size: 16px; font-weight: 600;}
+
+.wrap_contents_support .support_agree .support_container #support_wrap .point_color {color: #457285;}
+.wrap_contents_support .support_agree .support_container #support_wrap .sub_tit {float: right; color: red;}
+.wrap_contents_support .support_agree .support_container #support_wrap #support_content {margin-top: 10px; margin-bottom: 10px; font-size: 19px; font-weight: 600;}
+.wrap_contents_support .support_agree .support_container #support_wrap #support_content .support_content {border: 1px solid #ddd; padding: 25px; display: flex;}
+.wrap_contents_support .support_agree .support_container #support_wrap #support_content .support_sub_txt ul {font-size: 12px; color: gray; padding-top: 15px;}
+.wrap_contents_support .support_agree .support_container #support_wrap #support_content .gm_send {padding-top: 30px; padding-left: 15px; font-size: 14px; color: #457285;}
+.wrap_contents_support .support_agree .support_container #support_wrap #support_content .gm_send_div {display: flex;}
+.wrap_contents_support .support_agree .support_container #support_wrap #support_content .gm_send_div input {border: 1px solid #ddd; width: 80%; padding: 12px;}
+.wrap_contents_support .support_agree .support_container #support_wrap #support_content .gm_send_div div {width: 18%; margin-left: 20px; background: #457285;}
+.wrap_contents_support .support_agree .support_container #support_wrap #support_content .gm_send_div button {width: 100%; height: 100%; color: #fff; font-size: 18px;}
+
+.wrap_contents_support .support_agree .support_container #support_wrap.not_profit #not_profit_text {text-align: center; margin: auto; color: #555; font-size: 12px; font-weight: 600;}
+.wrap_contents_support .support_agree .support_container #support_wrap.not_profit #support_content {text-align: center; padding-top: 50px;}
+.wrap_contents_support .support_agree .support_container #support_wrap.not_profit #support_content button {width: 245px; padding: 10px; background: #aa8060; color: #fff;font-size: 15px;transition: all .3s ease;}
+.wrap_contents_support .support_agree .support_container #support_wrap.not_profit #support_content button:hover {background: #8f613f;}
+
+.wrap_contents_support .support_agree .support_container #support_wrap #support_content .support_bank_req {border: 1px solid #ddd; padding: 20px 25px; margin-bottom: 15px; text-align: center;}
+.wrap_contents_support .support_agree .support_container #support_wrap #support_content .support_bank_req .support_bank_req_desc {padding-bottom: 15px;}
+.wrap_contents_support .support_agree .support_container #support_wrap #support_content .support_bank_req .support_bank_req_desc span {color: #457285; font-size: 13px;}
+.wrap_contents_support .support_agree .support_container #support_wrap #support_content .support_bank_req button {background: #457285; color: #fff; padding: 10px 60px;}
+.wrap_contents_support .support_agree .support_container #support_wrap #support_content .gm_send_div div:hover, .wrap_contents_support .support_agree .support_container #support_wrap #support_content .support_bank_req button:hover {background: #375e6e;}
+.wrap_contents_support .support_agree .support_container #support_wrap #support_content .support_bank_req button i {font-size: 26px; vertical-align: top; margin-right: 13px;}
+
 @media (max-width: 1115px){
 	section#content .wrap_contents {max-width: 620px; margin: 0 10px 0 0;}
 	#top_area #search {position: absolute; right: 0; z-index: -1;}
