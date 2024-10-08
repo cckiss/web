@@ -59,12 +59,15 @@ a {cursor: pointer;}
 #container #page_container #user_data .user_detail .detail_box .detail_inv .inv_info:hover > .detail_inv_list {display:block;}
 
 #container #page_container #support_data .supports {color: #444;}
-#container #page_container #support_data .supports .item {margin-right: 10px; width: 150px; display: inline-grid;}
+#container #page_container #support_data .supports .left {float: left; display: contents;}
+#container #page_container #support_data .supports .right {float: right;}
+#container #page_container #support_data .supports .item {display: inline-grid; padding: 5px; width: 125px;}
 #container #page_container #support_data .supports .item.status .val.on {color: crimson; font-weight: 600;}
-#container #page_container #support_data .supports .event {float: right; line-height: 36px;}
+#container #page_container #support_data .supports .event {line-height: 43px;}
 #container #page_container #support_data .supports .event button {margin-left: 5px; background: #ff7272; border: none; color: #fff; padding: 4px; width: 60px; border-radius: 5px;}
 #container #page_container #support_data .supports .event button:hover {background: #cb5a5a;}
 #container #page_container #support_data .supports .key {color: #0d636c; font-weight: 600;}
+#container #page_container #support_data .supports .val {float: right;}
 #container #page_container #support_data .support_tab_top {display: flow-root; padding-bottom: 10px;}
 #container #page_container #support_data .support_tab_top .caption {text-align: left; font-size: 14px; line-height: 30px;}
 #container #page_container #support_data .support_tab_top button {float: right; height: 36px; padding: 7px 20px; background-color: #368db0; color: #fff;}
@@ -76,6 +79,8 @@ a {cursor: pointer;}
 #container #page_container #support_data .ui-select-tab .select-tab li a.selected {color: #fff; background-color: #a2a8b2;}
 #container #page_container #support_data .finish_form_div {display: none; position: fixed; top: 30%; left: 0; z-index: 10000001; margin: auto; width: 100%;}
 #container #page_container #support_data .finish_form_div .finish_form {width: 400px; background: #fff; padding: 20px; margin: auto;}
+#container #page_container #support_data .finish_form_div .finish_form input {width: 100%; margin-top: 10px; padding: 5px; border: 1px solid #ddd;}
+
 #container #page_container #support_data .finish_form_div span {font-size: 14px;}
 #container #page_container #support_data .finish_form_div .close {float: right; text-decoration: none; background: #ff7272; padding: 5px 15px; color: #fff; border-radius: 5px; font-size: 14px;}
 #container #page_container #support_data .finish_form_div .detail-item .support_request_content {margin: 0; font-size: 12px; font-family: dotum,돋움,Gulim,굴림,AppleGothic; resize: none; outline: none; border: 1px solid #ddd; width: 100%; padding: 12px; margin-top: 10px; height: 133px;}
