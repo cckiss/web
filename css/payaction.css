@@ -26,7 +26,18 @@
 #app .charge-name .static .wrapper input, #app .charge-value .static .wrapper input {text-indent: 44px; height: 54px; border-bottom: 1px solid #1f326338; font-size: 20px;}
 #app .charge-name .static .wrapper input {background: url(https://cdn.jsdelivr.net/gh/cckiss/web/img/29001.png) no-repeat left center; background-size: 24px 24px; background-position: 15px 15px;}
 #app .charge-value .static .wrapper input {background: url(https://cdn.jsdelivr.net/gh/cckiss/web/img/icon-won.png) no-repeat left center; background-size: 24px 24px; background-position: 15px 15px;}
-
+#order_list_btn {position: fixed; top: 57px; right: 42px; background: #ff6502; color: #fff; padding: 7px 11px; border-radius: 5px;}
+#order_list_container {position: absolute; top: 0; background: #fff; width: 100%; padding-top: 48px;}
+#order_list_container h1 {text-align: center; position: fixed; width: 100%; background: #fff; border-bottom: 1px solid #1f3263; height: 48px; color: #ff6502; line-height: 45px; font-weight: 600;}
+#order_list_container h1 i {padding-right: 10px;}
+#order_list_container #order_list {margin-top: 48px; font-size: 12px;}
+#order_list_container #order_list ul li .list_item {width: 15%; text-align: center; display: inline-grid; border-right: 1px solid #ddd; line-height: 25px;}
+#order_list_container #order_list ul li .list_item.amount, #order_list_container #order_list ul li .list_item.name {width: 20%;}
+#order_list_container #order_list ul li .list_item.date {width: 30%;}
+#order_list_container #order_list ul li .list_item:last-child {border-right: none;}
+#order_list_container #order_list ul li .list_item span.key {background: #1f3263; color: #fff; height: 25px;}
+#order_list_container #order_list ul li .list_item span.val {height: 25px;}
+#order_list_container #order_list_close_btn {position: fixed; top: 58px; right: 15px; background: #ff6502; color: #fff; padding: 4px 15px; border-radius: 5px;}
 #app .regist_wrap .container .bank_info .tit {padding: 0 0 5px 0; color: #ff6502; font-size: 20px;}
 #app .regist_wrap .container .bank_info .ex {font-size: 12px; color: red; padding-top: 10px;}
 #app .regist_wrap .container .bank_info .bank_desc, #app .regist_wrap .container .bank_info .order_info {border: 1px solid #ddd; border-bottom: none;}
@@ -37,10 +48,11 @@
 #app .regist_wrap .container .bank_info .order_expire {padding-top: 5px;}
 #app .regist_wrap .container .bank_info .order_expire .val {color: #ff6502; font-size: 20px;}
 #app .regist_wrap .container .bank_info .order_cancel_btn {position: absolute; right: 40px; top: 58px; background: #ff6502; color: #fff; padding: 5px 12px; border-radius: 5px;}
-#app .regist_wrap .container .bank_info .order_cancel_btn:hover, #app .regist_wrap .container .order_init .order_init_cancel_btn:hover {background: #e3610d;}
+#app .regist_wrap .container .bank_info .order_cancel_btn:hover, #app .regist_wrap .container .order_init .order_init_cancel_btn:hover, #order_list_btn:hover, #order_list_container #order_list_close_btn:hover {background: #e3610d;}
 #app .regist_wrap .container .order_init {padding-top: 10px; color: #273c73;}
 #app .regist_wrap .container .order_init span {font-size: 14px; font-weight: 600; -webkit-animation: blink 2.5s linear infinite;}
 #app .regist_wrap .container .order_init .order_init_cancel_btn {float: right; background: #ff6502; padding: 4px 13px; color: #fff; border-radius: 5px;}
+
 
 @media (min-width: 480px) {
     #app .agree_btns {left: 40px; right: 40px;}
