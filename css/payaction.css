@@ -8,8 +8,11 @@
 #app .regist_wrap .container .support_content .support_r {padding-top: 5px;}
 #app .regist_wrap .container .support_content .support_r .reward_content {display: block; color: #fff; padding-top: 5px;}
 #app #agree_wrap .agree_check_div {padding-top: 20px; position: relative;}
-#app #agree_wrap .agree_check_div input {position: absolute; top: 23px; cursor: pointer; appearance: auto;}
-#app #agree_wrap .agree_check_div strong {padding-left: 22px; cursor: pointer;}
+#app #agree_wrap .agree_check_div input{display: none;}
+#app #agree_wrap .agree_check_div label {cursor: pointer;}
+#app #agree_wrap .agree_check_div label span {vertical-align: middle; padding-left: 5px; font-weight: 600;}
+#app #agree_wrap .agree_check_div input + label:before{content: ""; display: inline-block; width: 17px; height: 17px; border: 1px solid #1f3263; border-radius: 4px; vertical-align: middle;}
+#app #agree_wrap .agree_check_div input:checked + label:before{content: '✔'; color: #fff; background-color: #1f3263; text-align: center; line-height: 15px;}
 #app .agree_btns {z-index: 11; position: fixed; left: 20px; right: 20px; bottom: 0; text-align: center; background-color: hsla(0, 0%, 96.1%, .85);}
 #app .agree_btns button, #app .btn_wrap button {margin: 0 0 14px; width: 100%; max-width: 580px; height: 52px; background-color: #1f3263; color: #fff; text-align: center; font-size: 16px; line-height: 50px;}
 #app .agree_btns button:hover, #app .btn_wrap button:hover, #app .regist_wrap .regist_container .support_bank_req .support_bank_req_btn button:hover {background-color: #273c73;}
