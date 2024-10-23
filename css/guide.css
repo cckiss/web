@@ -318,7 +318,17 @@
 	.wrap-section-beginner .table.table-size-67 .thead+td, .wrap-section-beginner .table.table-size-67 .thead+th,  
 	.wrap-section-beginner .table.table-size-68 .thead+td, .wrap-section-beginner .table.table-size-68 .thead+th,  
 	.wrap-section-beginner .table.table-size-69 .thead+td, .wrap-section-beginner .table.table-size-69 .thead+th,  
-	.wrap-section-beginner .table.table-size-70 .thead+td, .wrap-section-beginner .table.table-size-70 .thead+th {width: 316px; padding-left: 126px;}
+	.wrap-section-beginner .table.table-size-70 .thead+td, .wrap-section-beginner .table.table-size-70 .thead+th,
+	.wrap-section-beginner .table.table-size-71 .thead+td, .wrap-section-beginner .table.table-size-71 .thead+th,
+	.wrap-section-beginner .table.table-size-72 .thead+td, .wrap-section-beginner .table.table-size-72 .thead+th,
+	.wrap-section-beginner .table.table-size-73 .thead+td, .wrap-section-beginner .table.table-size-73 .thead+th,
+	.wrap-section-beginner .table.table-size-74 .thead+td, .wrap-section-beginner .table.table-size-74 .thead+th,
+	.wrap-section-beginner .table.table-size-75 .thead+td, .wrap-section-beginner .table.table-size-75 .thead+th,
+	.wrap-section-beginner .table.table-size-76 .thead+td, .wrap-section-beginner .table.table-size-76 .thead+th,
+	.wrap-section-beginner .table.table-size-77 .thead+td, .wrap-section-beginner .table.table-size-77 .thead+th,
+	.wrap-section-beginner .table.table-size-78 .thead+td, .wrap-section-beginner .table.table-size-78 .thead+th,
+	.wrap-section-beginner .table.table-size-79 .thead+td, .wrap-section-beginner .table.table-size-79 .thead+th,
+	.wrap-section-beginner .table.table-size-80 .thead+td, .wrap-section-beginner .table.table-size-80 .thead+th {width: 316px; padding-left: 126px;}
 	.wrap-section-boss .section-boss-time>article .article-boss-time {padding-right: 40px;}
 }
 
@@ -362,7 +372,12 @@
 	.wrap-section-beginner .table.table-size-64 .thead, .wrap-section-beginner .table.table-size-65 .thead, 
 	.wrap-section-beginner .table.table-size-66 .thead, .wrap-section-beginner .table.table-size-67 .thead, 
 	.wrap-section-beginner .table.table-size-68 .thead, .wrap-section-beginner .table.table-size-69 .thead, 
-	.wrap-section-beginner .table.table-size-70 .thead {width: 216px;}
+	.wrap-section-beginner .table.table-size-70 .thead, .wrap-section-beginner .table.table-size-71 .thead,
+	.wrap-section-beginner .table.table-size-72 .thead, .wrap-section-beginner .table.table-size-73 .thead,
+	.wrap-section-beginner .table.table-size-74 .thead, .wrap-section-beginner .table.table-size-75 .thead,
+	.wrap-section-beginner .table.table-size-76 .thead, .wrap-section-beginner .table.table-size-77 .thead,
+	.wrap-section-beginner .table.table-size-78 .thead, .wrap-section-beginner .table.table-size-79 .thead,
+	.wrap-section-beginner .table.table-size-80 .thead {width: 216px;}
 	.wrap-section-beginner .table.table-size-16 td, .wrap-section-beginner .table.table-size-17 th, 
 	.wrap-section-beginner .table.table-size-18 td, .wrap-section-beginner .table.table-size-19 th, 
 	.wrap-section-beginner .table.table-size-20 td, .wrap-section-beginner .table.table-size-21 th, 
@@ -400,7 +415,17 @@
 	.wrap-section-beginner .table.table-size-67 td, .wrap-section-beginner .table.table-size-67 th, 
 	.wrap-section-beginner .table.table-size-68 td, .wrap-section-beginner .table.table-size-68 th, 
 	.wrap-section-beginner .table.table-size-69 td, .wrap-section-beginner .table.table-size-69 th, 
-	.wrap-section-beginner .table.table-size-70 td, .wrap-section-beginner .table.table-size-70 th {width: 200px;}
+	.wrap-section-beginner .table.table-size-70 td, .wrap-section-beginner .table.table-size-70 th,
+	.wrap-section-beginner .table.table-size-71 td, .wrap-section-beginner .table.table-size-71 th,
+	.wrap-section-beginner .table.table-size-72 td, .wrap-section-beginner .table.table-size-72 th,
+	.wrap-section-beginner .table.table-size-73 td, .wrap-section-beginner .table.table-size-73 th,
+	.wrap-section-beginner .table.table-size-74 td, .wrap-section-beginner .table.table-size-74 th,
+	.wrap-section-beginner .table.table-size-75 td, .wrap-section-beginner .table.table-size-75 th,
+	.wrap-section-beginner .table.table-size-76 td, .wrap-section-beginner .table.table-size-76 th,
+	.wrap-section-beginner .table.table-size-77 td, .wrap-section-beginner .table.table-size-77 th,
+	.wrap-section-beginner .table.table-size-78 td, .wrap-section-beginner .table.table-size-78 th,
+	.wrap-section-beginner .table.table-size-79 td, .wrap-section-beginner .table.table-size-79 th,
+	.wrap-section-beginner .table.table-size-80 td, .wrap-section-beginner .table.table-size-80 th {width: 200px;}
 	.wrap-section-beginner .table.table-size-16 .thead+td, .wrap-section-beginner .table.table-size-16 .thead+th, 
 	.wrap-section-beginner .table.table-size-17 .thead+td, .wrap-section-beginner .table.table-size-17 .thead+th, 
 	.wrap-section-beginner .table.table-size-18 .thead+td, .wrap-section-beginner .table.table-size-18 .thead+th, 
@@ -455,5 +480,15 @@
 	.wrap-section-beginner .table.table-size-67 .thead+td, .wrap-section-beginner .table.table-size-67 .thead+th, 
 	.wrap-section-beginner .table.table-size-68 .thead+td, .wrap-section-beginner .table.table-size-68 .thead+th, 
 	.wrap-section-beginner .table.table-size-69 .thead+td, .wrap-section-beginner .table.table-size-69 .thead+th, 
-	.wrap-section-beginner .table.table-size-70 .thead+td, .wrap-section-beginner .table.table-size-70 .thead+th  {width: 416px; padding-left: 226px;}
+	.wrap-section-beginner .table.table-size-70 .thead+td, .wrap-section-beginner .table.table-size-70 .thead+th,
+	.wrap-section-beginner .table.table-size-71 .thead+td, .wrap-section-beginner .table.table-size-71 .thead+th,
+	.wrap-section-beginner .table.table-size-72 .thead+td, .wrap-section-beginner .table.table-size-72 .thead+th,
+	.wrap-section-beginner .table.table-size-73 .thead+td, .wrap-section-beginner .table.table-size-73 .thead+th,
+	.wrap-section-beginner .table.table-size-74 .thead+td, .wrap-section-beginner .table.table-size-74 .thead+th,
+	.wrap-section-beginner .table.table-size-75 .thead+td, .wrap-section-beginner .table.table-size-75 .thead+th,
+	.wrap-section-beginner .table.table-size-76 .thead+td, .wrap-section-beginner .table.table-size-76 .thead+th,
+	.wrap-section-beginner .table.table-size-77 .thead+td, .wrap-section-beginner .table.table-size-77 .thead+th,
+	.wrap-section-beginner .table.table-size-78 .thead+td, .wrap-section-beginner .table.table-size-78 .thead+th,
+	.wrap-section-beginner .table.table-size-79 .thead+td, .wrap-section-beginner .table.table-size-79 .thead+th,
+	.wrap-section-beginner .table.table-size-80 .thead+td, .wrap-section-beginner .table.table-size-80 .thead+th  {width: 416px; padding-left: 226px;}
 }
