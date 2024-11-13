@@ -34,6 +34,20 @@ body.ingame #nc-cnb[data-cnb-type] .ncc-depth2-list-wrap .ncc-depth2-list-items.
 body.ingame .ncc-depth2-list-wrap:before {border-bottom: 1px solid transparent;}
 body.ingame #nc-cnb[data-cnb-type] .ncc-search legend {right: 10px;}
 
+body.ncPurple ::-webkit-scrollbar {width: 12px;}
+body.ncPurple ::-webkit-scrollbar-button, body.ncPurple ::-webkit-resizer {display: none;}
+body.ncPurple ::-webkit-scrollbar-thumb {background-color: rgba(131, 137, 153, .3); width: 4px; background-clip: padding-box; border: 4px solid transparent; border-radius: 10px; }
+body.ncPurple .container {max-height: calc(100vh - 58px); overflow-y: overlay; padding-bottom: 0;}
+body.ncPurple #nc-cnb {display: block;}
+body.ncPurple .wrap-header, body.ncPurple .wrap-footer {display:none;}
+body.ncPurple .wrap-contents {padding: 20px 0;}
+#nc-cnb .ncc-purple-bottom-nav {background-color: #1e1f21; bottom: 0; display: none; height: 58px; left: 0; position: fixed; width: 100vw; z-index: 9100005;}
+#nc-cnb .ncc-purple-bottom-nav .ncc-login--info {display: block; font-size: 14px; margin-top: 0;}
+#nc-cnb .ncc-purple-bottom-nav .ncc-login--info a {cursor: default;}
+@media (min-width: 960px) {
+    #nc-cnb .ncc-purple-bottom-nav {align-items: center; display: flex; justify-content: flex-end; padding: 0 25px;}
+}
+																																																			    
 .custom-theme#nc-cnb .ncc-lnb-header-bi .ncc-bi {background-image: url(https://cdn.jsdelivr.net/gh/cckiss/web/img/bi-lineageremaster-type2.png); width: 84px; height: 35px; margin-top: 11px; text-indent: -9999em; white-space: nowrap; overflow: hidden; background-size: cover; background-repeat: no-repeat; background-position: center center;}
 body.ncc-dimmed #nc-cnb .ncc-dimmed {opacity: .6; visibility: visible;}
 body.ncc-dimmed #nc-cnb .ncc-dimmed.is-active-left, body.ncc-dimmed #nc-cnb .ncc-dimmed.is-active-right {z-index: 9100025;}
