@@ -47,7 +47,7 @@ body.ncPurple .wrap-contents {padding: 20px 0;}
 @media (min-width: 960px) {
     #nc-cnb .ncc-purple-bottom-nav {align-items: center; display: flex; justify-content: flex-end; padding: 0 25px;}
 }
-																																																			    
+
 .custom-theme#nc-cnb .ncc-lnb-header-bi .ncc-bi {background-image: url(https://cdn.jsdelivr.net/gh/cckiss/web/img/bi-lineageremaster-type2.png); width: 84px; height: 35px; margin-top: 11px; text-indent: -9999em; white-space: nowrap; overflow: hidden; background-size: cover; background-repeat: no-repeat; background-position: center center;}
 body.ncc-dimmed #nc-cnb .ncc-dimmed {opacity: .6; visibility: visible;}
 body.ncc-dimmed #nc-cnb .ncc-dimmed.is-active-left, body.ncc-dimmed #nc-cnb .ncc-dimmed.is-active-right {z-index: 9100025;}
@@ -85,7 +85,7 @@ body.ncc-dimmed #nc-cnb .ncc-dimmed.is-active-left, body.ncc-dimmed #nc-cnb .ncc
 
 body.launcher:not(.ncPurple) .gnb_wrap {padding-top: 50px;}
 body.launcher #nc-cnb.is-sticky .ncc-header {background-color: #192950!important;}
-body.launcher .ncc-search legend:before, body.launcher #nc-cnb .ncc-login--info__char {opacity: 0.6;}
+body.launcher .ncc-search legend:before, body.launcher:not(.ncPurple) #nc-cnb .ncc-login--info__char {opacity: 0.6;}
 body.launcher .ncc-search legend:hover:before, body.launcher #nc-cnb .ncc-login--info a:hover > .ncc-login--info__char {opacity: 1;}
 body.launcher #nc-cnb[data-cnb-type] .ncc-lnb-title .ncc-lnb-title--current {background: #192950; padding: 10px 12px;}
 body.page-main.launcher #nc-cnb[data-cnb-type] .ncc-lnb-title .ncc-lnb-title--current {background-color: rgba(0,0,0,.5);}
@@ -112,12 +112,11 @@ body.launcher .ncc-search {top: 0px;}
 body.launcher #nc-cnb.is-sticky .ncc-search legend:before {background-image: url(https://cdn.jsdelivr.net/gh/cckiss/web/img/icon-search.png); background-size: 36px 36px; background-position: 50%; background-repeat: no-repeat;}
 body.launcher #nc-cnb[data-cnb-type] .ncc-search .ncc-search-wrap {top: 4px;}
 body.launcher .promotionUtilForm .promotionUtilForm_container {padding-top: 4%;}
-body.launcher #nc-cnb .ncc-login--info__server, body.launcher #nc-cnb .ncc-profile-links a.ncc-profile-logout {display: none;}
+body.launcher #nc-cnb .ncc-login--info__server, body.launcher:not(.ncPurple) #nc-cnb .ncc-profile-links a.ncc-profile-logout {display: none;}
 body.ingame .ui-dropdown-elements, body.launcher .ui-dropdown-elements {display: none!important;}
 body.launcher #nc-cnb .ncc-profile-links a:after {display: none!important;}
-body.launcher #nc-cnb .ncc-login--info a:before {display: inline-block; content: ""; overflow: hidden; width: 1px; height: 11px; background-color: #fff; opacity: .12; vertical-align: middle; margin-right: 10px;}
 body.ingame #nc-cnb .ncc-lnb .ncc-lnb-item>a, body.launcher #nc-cnb .ncc-lnb .ncc-lnb-item>a {-webkit-transition: color .4s ease; transition: color .4s ease;}
-body.ingame #nc-cnb[data-cnb-type] .ncc-lnb-title .ncc-lnb-title--current .ncc-lnb-item > a, body.ingame .ncc-search legend:before, body.ingame #nc-cnb .ncc-login--info__char, body.ingame #nc-cnb[data-cnb-type] .ncc-login--before .ncc-login__link, body.ingame #nc-cnb[data-cnb-type] .ncc-login--before .ncc-login__link-login, body.launcher #nc-cnb[data-cnb-type] .ncc-lnb-title .ncc-lnb-title--current .ncc-lnb-item > a, body.launcher .ncc-search legend:before, body.launcher #nc-cnb .ncc-login--info__char, body.launcher #nc-cnb[data-cnb-type] .ncc-login--before .ncc-login__link, body.launcher #nc-cnb[data-cnb-type] .ncc-login--before .ncc-login__link-login {-webkit-transition: opacity .4s ease; transition: opacity .4s ease;}
+body.ingame #nc-cnb[data-cnb-type] .ncc-lnb-title .ncc-lnb-title--current .ncc-lnb-item > a, body.ingame .ncc-search legend:before, body.ingame #nc-cnb .ncc-login--info__char, body.ingame #nc-cnb[data-cnb-type] .ncc-login--before .ncc-login__link, body.ingame #nc-cnb[data-cnb-type] .ncc-login--before .ncc-login__link-login, body.launcher #nc-cnb[data-cnb-type] .ncc-lnb-title .ncc-lnb-title--current .ncc-lnb-item > a, body.launcher:not(.ncPurple) .ncc-search legend:before, body.launcher:not(.ncPurple) #nc-cnb .ncc-login--info__char, body.launcher #nc-cnb[data-cnb-type] .ncc-login--before .ncc-login__link, body.launcher:not(.ncPurple) #nc-cnb[data-cnb-type] .ncc-login--before .ncc-login__link-login {-webkit-transition: opacity .4s ease; transition: opacity .4s ease;}
 body.launcher #nc-cnb .ncc-login--before .ncc-login__link-login {display: none;}
 
 #nccSuggestWrap #nccSuggestList > div > ul > li:hover {background-color: #e9ecef;}
