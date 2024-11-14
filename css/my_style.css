@@ -83,7 +83,7 @@ body.ncc-dimmed #nc-cnb .ncc-dimmed.is-active-left, body.ncc-dimmed #nc-cnb .ncc
 #ncCommunityList .no-data:before {content: ''; display: inline-block; background-image: url(https://cdn.jsdelivr.net/gh/cckiss/web/img/goods/sprite.png?1569198782739); background-repeat: no-repeat; background-size: 630px 555px; background-position: -500px -130px; width: 110px; height: 110px; font-size: 0;}
 #ncCommunityList .no-data .no-data-desc {padding: 15px 0 25px 0; font-size: 15px; color: #707070;}
 
-body.launcher .gnb_wrap {padding-top: 50px;}
+body.launcher::not(.ncPurple) .gnb_wrap {padding-top: 50px;}
 body.launcher #nc-cnb.is-sticky .ncc-header {background-color: #192950!important;}
 body.launcher .ncc-search legend:before, body.launcher #nc-cnb .ncc-login--info__char {opacity: 0.6;}
 body.launcher .ncc-search legend:hover:before, body.launcher #nc-cnb .ncc-login--info a:hover > .ncc-login--info__char {opacity: 1;}
