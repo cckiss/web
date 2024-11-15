@@ -112,7 +112,7 @@ body.launcher .ncc-search {top: 0px;}
 body.launcher #nc-cnb.is-sticky .ncc-search legend:before {background-image: url(https://cdn.jsdelivr.net/gh/cckiss/web/img/icon-search.png); background-size: 36px 36px; background-position: 50%; background-repeat: no-repeat;}
 body.launcher #nc-cnb[data-cnb-type] .ncc-search .ncc-search-wrap {top: 4px;}
 body.launcher .promotionUtilForm .promotionUtilForm_container {padding-top: 4%;}
-body.launcher #nc-cnb .ncc-login--info__server, body.launcher:not(.ncPurple) #nc-cnb .ncc-profile-links a.ncc-profile-logout {display: none;}
+body.launcher:not(.ncPurple) #nc-cnb .ncc-login--info__server, body.launcher:not(.ncPurple) #nc-cnb .ncc-profile-links a.ncc-profile-logout {display: none;}
 body.ingame .ui-dropdown-elements, body.launcher .ui-dropdown-elements {display: none!important;}
 body.launcher #nc-cnb .ncc-profile-links a:after {display: none!important;}
 body.ingame #nc-cnb .ncc-lnb .ncc-lnb-item>a, body.launcher #nc-cnb .ncc-lnb .ncc-lnb-item>a {-webkit-transition: color .4s ease; transition: color .4s ease;}
