@@ -41,6 +41,7 @@ body.ncPurple .container {max-height: calc(100vh - 58px); overflow-y: overlay; p
 body.ncPurple #nc-cnb {display: block;}
 body.ncPurple .wrap-header, body.ncPurple .wrap-footer {display:none;}
 body.ncPurple .wrap-contents {padding: 20px 0;}
+body.ncPurple.page-board .wrap-contents .ui-slidetab.percentage {display: none !important;}
 #nc-cnb .ncc-purple-bottom-nav {background-color: #1e1f21; bottom: 0; display: none; height: 58px; left: 0; position: fixed; width: 100vw; z-index: 9100005;}
 #nc-cnb .ncc-purple-bottom-nav .ncc-login--info {display: block; font-size: 14px; margin-top: 0;}
 #nc-cnb .ncc-purple-bottom-nav .ncc-login--info a {cursor: default;}
