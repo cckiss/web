@@ -52,7 +52,6 @@ main {display: block;}
 #app {display: flex; flex-wrap: nowrap; height: 100%; position: relative;}
 #pageWrap {display: flex; overflow: hidden; flex-flow: column; flex: 1 1 0%;}
 #homePage {position: relative; display: flex; height: 100%; flex: 1 1 0%; flex-direction: column; min-height: 0px;}
-#homePage .bg {display: flex; position: relative; height: 100%; background-repeat: no-repeat; background-position: center center; background-size: cover; background-image: url(https://cdn.jsdelivr.net/gh/cckiss/web/img/lobby/bg_elf.webp);}
 #homePage .bg .container {display: flex; flex-direction: column; flex: 1 1 0%; height: 100%; color: rgb(255, 255, 255);}
 #homePage .bg .container header {margin-top: 40px; width: 100%; display: flex; flex-direction: column; -webkit-box-align: center; align-items: center; margin-bottom: 40px; flex: 0 0 auto; z-index: 15;}
 #homePage .bg .container header > div {white-space: nowrap; width: 750px; display: flex; -webkit-box-pack: center; justify-content: center; height: auto; margin-bottom: 8px;}
