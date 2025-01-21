@@ -44,8 +44,7 @@ b, strong {font-weight: bolder;}
 ul {list-style: none; padding: 0px; margin: 0px;}
 html {box-sizing: border-box; line-height: 1.5; height: 100%;}
 head {display: none;}
-body {margin: 0px;}
-body {font-family: "Noto Sans KR", "Noto Sans", -apple-system, BlinkMacSystemFont, Roboto, Arial, "Microsoft YaHei", "Microsoft JhengHei", sans-serif; height: 100%; width: 100%;}
+body {margin: 0px; height: 100%; width: 100%;}
 img {border-style: none; image-rendering: -webkit-optimize-contrast; -webkit-user-drag: none; user-select: none;}
 #root {height: 100%;}
 main {display: block;}
