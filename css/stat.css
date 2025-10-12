@@ -412,6 +412,7 @@ line-height: 1.62;
     border-radius: 50%;
     background-image: url(https://cdn.jsdelivr.net/gh/cckiss/web/img/stat/loading.png);
     background-size: contain;
+    background-color: transparent;
 }
 
 .btn-gift:hover, .layer-item-search .wrap-section-searchresult ul li[data-id], .simulator-header .btn-simulator.abled, [type=button], [type=reset], [type=submit], button {
@@ -904,4 +905,5 @@ section.simulator__stat>footer p::before {
         margin-left: auto;
         margin-right: auto;
     }
+
 }
