@@ -410,7 +410,7 @@ line-height: 1.62;
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background-image: url(https://cdn.jsdelivr.net/gh/cckiss/web/img/stat/loading.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/cckiss/web/img/loading.png);
     background-size: contain;
     background-color: transparent;
 }
@@ -907,3 +907,4 @@ section.simulator__stat>footer p::before {
     }
 
 }
+
