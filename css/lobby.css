@@ -41,6 +41,7 @@
 * {margin: 0px; padding: 0px;}
 *, ::before, ::after {box-sizing: border-box;}
 b, strong {font-weight: bolder;}
+i, em {font-style:normal;}
 ul {list-style: none; padding: 0px; margin: 0px;}
 html {box-sizing: border-box; line-height: 1.5; height: 100%;}
 head {display: none;}
