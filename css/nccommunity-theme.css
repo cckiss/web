@@ -35,7 +35,7 @@ body.ncPurple .container {line-height: 1.4;}
 .board-view .view-header .article-info-wrap {margin-top: 10px; min-height: 30px;}
 .view-header .article-info {color: #8c919a; display: -webkit-box; display: -ms-flexbox; display: flex; font-size: 14px; line-height: 22px; position: relative;}
 .board-view .view-header .article-info-wrap .article-info {-webkit-box-flex: 1; -ms-flex: 1; flex: 1; -ms-flex-wrap: wrap; flex-wrap: wrap;}
-.writer .writer~span:before, .writer~span:before {background-color: #8c919a; content: ""; display: inline-block; height: 12px; margin: 0 6px 2px; vertical-align: middle; width: 1px;}
+.writer .writer~span:before, .writer .server:before, .writer~span:before {background-color: #8c919a; content: ""; display: inline-block; height: 12px; margin: 0 6px 2px; vertical-align: middle; width: 1px;}
 body.ncPurple .purple-community-node ::-webkit-scrollbar-thumb {border-width: 0;}
 body.ncPurple .purple-community-node ::-webkit-scrollbar-button {display: inline; display: initial; height: 2px; width: 2px;}
 body.ncPurple .purple-community-node ::-webkit-scrollbar {width: 4px;}
