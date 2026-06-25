@@ -8,6 +8,7 @@ Update: 2018-11-05 16:54:47
 body.ncPurple:not(.ncMob):not(.ncPurpleZone):not(.ncPurpleOn) .section-contents {padding: 20px 0px; min-height: unset;}
 body.ncPurple .ncc-header {display: none;}
 body.ncPurple .container {line-height: 1.4;}
+body.ncPurple .purple-community-node {padding-left: 40px !important; padding-right: 40px !important; max-width: none !important;}
 .purple-community-node {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; height: calc(100vh - 86px - 58px); margin-bottom: -20px; min-height: 0; min-height: auto; position: relative;}
 .purple-community-node .purple-wrapper {height: -webkit-fill-available; min-height: 300px;}
 .purple-wrapper.purple-board {border-top: 5px solid rgba(255, 255, 255, 0.08); display: grid; grid-template-columns: 420px auto; position: relative; width: 100%;}
